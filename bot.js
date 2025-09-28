@@ -1,3 +1,5 @@
+const HBInit = require("haxball-headless");
+
 // === BLOQUE 0: CONFIGURACIÓN INICIAL ===
 const NombreHost = "🏆OFIS AFAHAX 🏆"; 
 const Contraseña = "ofi12hax";
@@ -1103,3 +1105,4 @@ room.onPlayerChat = function (player, message) {
   return true;
 };
 // fin de bloque (13)
+
